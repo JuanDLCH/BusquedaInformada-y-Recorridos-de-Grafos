@@ -19,7 +19,9 @@
 <br>
 
 ## Visualizacion:
-<img alt="Laberinto" src="Imagenes\Laberinto.png" width="800" height="400" />
+<p align="center">
+    <img alt="Laberinto" src="Imagenes\Laberinto.png" width="800" height="400" />
+</p>
 
 <br><br>
 
@@ -28,7 +30,9 @@
 <br>
 
 ## Visualizacion:
-<img alt="Ciudades" src="Imagenes\Ciudades.png" width="800" height="400" />
+<p align="center">
+    <img alt="Ciudades" src="Imagenes\Ciudades.png" width="800" height="400" />
+</p>
 
 <br><br>
 
