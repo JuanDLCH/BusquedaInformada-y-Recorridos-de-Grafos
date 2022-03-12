@@ -14,7 +14,7 @@
     - Profundidad
 
 # Aplicaciones:
-- En primer lugar le daremos solución a un Laberinto Sencillo, tomado de un <a href="https://repository.uaeh.edu.mx/revistas/index.php/huejutla/article/view/1089/4757">articulo </a> de la UAEH de México donde nos brindan una imagen del laberinto y un grafo con los nodos necesarios a recorrer como guía. La desventaja de esto es que su aplicación se limita al algoritmo "Primero el mejor" ya que los pesos para cada conexión serán iguales
+- En primer lugar le daremos solución a un Laberinto Sencillo, tomado de un <a href="https://repository.uaeh.edu.mx/revistas/index.php/huejutla/article/view/1089/4757">articulo </a> de la UAEH de México donde nos brindan una imagen del laberinto y un grafo con los nodos necesarios a recorrer como guía. La desventaja de esto es que su aplicación se limita al algoritmo "Primero el mejor" ya que los pesos para cada conexión serán iguales, haciendo que el recorrido A* y el recorrido Primero el mejor para este caso serán el mismo.
 
 <br>
 
