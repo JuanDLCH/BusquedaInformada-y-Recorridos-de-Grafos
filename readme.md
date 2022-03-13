@@ -77,3 +77,6 @@ Podemos concluir entonces que el algoritmo A* es más equilibrado para estos cas
 
 # Instalación de librerías:
 - pip install graphviz
+
+# Dibujado de grafos:
+- [http://mxwell.github.io](http://mxwell.github.io/draw-graph/?q=graph{Medellin--Bogota[label="3"];Medellin--Caracas[label="5"];Medellin--Dallas[label="2"];Bogota--Estanbul[label="3"];Bogota--Florianiapolis[label="2"];Bogota--Caracas[label="2"];Dallas--Guayaquil[label="5"];Dallas--Florianapolis[label="1"];Estanbul--Forianapolis[label="2"];Estanbul--Ixtapa[label="3"];Estanbul--Houston[label="4"];Florianapolis--Guayaquil[label="2"];Florianapolis--Jaco[label="5"];Florianapolis--Ixtapa[label="2"];Florianapolis--Houston[label="1"];Guayaquil--Jaco[label="2"];Guayaquil--Ixtapa[label="3"];Houston--Kansas_city[label="2"];Houston--Leticia[label="1"];Houston--Ixtapa[label="4"];Ixtapa--Jaco[label="3"];Ixtapa--Mendoza[label="1"];Ixtapa--Leticia[label="6"];Ixtapa--Kansas_city[label="2"];Kansas_city--New_Orleans[label="3"];Kansas_city--Leticia[label="4"];Leticia--New_Orleans[label="4"];Leticia--Mendoza[label="4"];Mendoza--New_Orleans[label="2"]}#)
