@@ -48,12 +48,10 @@ inicio = input("Inserte el aeropuerto de partida: ")
 destino = input("Inserte el aeropuerto de destino: ")
 
 Pb = crearCiudades()
-
 print('Recorrido en el grafo por amplitud: ')
 print(recorridoAmplitud(Pb, inicio, destino))
 print()
 print("\n****************************************************************\n")
-
 print('Recorrido en el grafo en profundidad: ')
 print(recorridoProfundidad(Pb, inicio, destino))
 print()

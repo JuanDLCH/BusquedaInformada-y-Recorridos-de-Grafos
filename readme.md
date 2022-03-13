@@ -39,9 +39,10 @@ Cabe aclarar que este no es un grafo dirigido, si queremos ir del nodo 2,0 al no
 
 <br>
 
-## <p align = center>Visualizacion:</p>
+## <p align = "center">Visualizacion:</p>
+
 <p align="center">
-    <img alt="Ciudades" src="Imagenes\Ciudades.png" width="800" height="400" />
+    <img alt="Ciudades" src="Imagenes\Ciudades.png" width="400" height="600" />
 </p>
 
 <br><br><br>
@@ -49,3 +50,7 @@ Cabe aclarar que este no es un grafo dirigido, si queremos ir del nodo 2,0 al no
 # Para crear los grafos:
 - Trabajaremos en Python
 - Importaremos las librerías de networkx y graphviz
+
+# Instalación de librerías:
+- pip install graphviz
+- conda install -c alubbock pygraphviz
