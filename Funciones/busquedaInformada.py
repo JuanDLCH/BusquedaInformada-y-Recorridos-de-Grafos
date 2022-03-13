@@ -18,7 +18,7 @@ def primeroMejor(G, origen, destino):
                 return recorrido #En caso tal de encontrar el nodo destino, retorna los nodos recorridos hasta el momento
             visitados.append(actual)
         vecinos = obtenerVecinos(G, actual) #El metodo Obtener vecinos sólo nos retorna el valor de los vecinos, no sus atributos
-        vecinosAux = list() #Usamos una lista auxiliar de diccionarios para poder asignarles las heurísticas 
+        vecinosAux = [] #Usamos una lista auxiliar de diccionarios para poder asignarles las heurísticas 
         
         for neighbor in vecinos:
             if neighbor not in visitados:
@@ -27,7 +27,7 @@ def primeroMejor(G, origen, destino):
         #El propósito de ponerlos en una lista es usar la función lambda para ordenarlos por heurística en orden ascendente
         vecinosAux = sorted(vecinosAux, key = lambda i: i['h'])
         i=0
-        vecinos = list() #La lista de vecinos no la necesitamos más, por lo que la vaciamos para reutilizarla
+        vecinos = [] #La lista de vecinos no la necesitamos más, por lo que la vaciamos para reutilizarla
         
         for item in vecinosAux:
             if i == 0:
@@ -58,13 +58,12 @@ def aStar(G, origen, destino):
     recorrido = []
     pila.append(origen)
     costes = 0
-    predecesores = dict() #Iremos guardando los nodos predecesores para al final hacer una regresión por el camino más óptimo
-    predecesores[origen] = 'N/A' #El primer nodo no tiene predecesor, "N/A" será nuestro púnto de quiebre en la regresión
+    predecesores = {origen: 'N/A'} #Iremos guardando los nodos predecesores para al final hacer una regresión por el camino más óptimo
     
     while pila:
         actual = pila.pop()
         vecinos = obtenerVecinos(G, actual)
-        vecinosAux = list()
+        vecinosAux = []
         if actual not in visitados:
             recorrido.append(actual)
             for neighbor in vecinos:
@@ -80,7 +79,7 @@ def aStar(G, origen, destino):
                 vecinosAux.append({'n': neighbor, 't': G.nodes[neighbor]["h"] + G[actual][neighbor]["weight"]})
         vecinosAux = sorted(vecinosAux, key = lambda i: i['t']) #Ordenamos ahora por el coste total de ir de un nodo a otro + la heurística
         i=0
-        vecinos = list()
+        vecinos = []
         
         for item in vecinosAux:
             if i == 0:
