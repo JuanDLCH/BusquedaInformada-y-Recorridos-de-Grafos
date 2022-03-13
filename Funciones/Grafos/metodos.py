@@ -1,5 +1,3 @@
-import networkx as nx
-import graphviz
 import matplotlib.pyplot as plt
 
 #Definimos algunos métodos generales
