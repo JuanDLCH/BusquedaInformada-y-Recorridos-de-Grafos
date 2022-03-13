@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-
 #Definimos algunos métodos generales
 
 #Obtiene los vecinos de un nodo determinado y los retorna a modo de lista
@@ -7,7 +5,7 @@ import matplotlib.pyplot as plt
 def obtenerVecinos(G, n):
     vecinos = G[n]
     lista = []
-    for k, d in vecinos.items():
+    for k in vecinos.items():
         lista.append(str(k))    
     return lista
 

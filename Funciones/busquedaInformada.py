@@ -57,7 +57,6 @@ def aStar(G, origen, destino):
     visitados = []
     recorrido = []
     pila.append(origen)
-    costes = 0
     predecesores = {origen: 'N/A'} #Iremos guardando los nodos predecesores para al final hacer una regresión por el camino más óptimo
     
     while pila:
