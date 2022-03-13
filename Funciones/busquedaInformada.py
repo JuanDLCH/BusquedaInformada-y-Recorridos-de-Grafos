@@ -58,8 +58,7 @@ def aStar(G, origen, destino):
     recorrido = []
     pila.append(origen)
     costes = 0
-    predecesores = {} #Iremos guardando los nodos predecesores para al final hacer una regresión por el camino más óptimo
-    predecesores[origen] = 'N/A' #El primer nodo no tiene predecesor, "N/A" será nuestro púnto de quiebre en la regresión
+    predecesores = {origen: 'N/A'} #Iremos guardando los nodos predecesores para al final hacer una regresión por el camino más óptimo
     
     while pila:
         actual = pila.pop()
