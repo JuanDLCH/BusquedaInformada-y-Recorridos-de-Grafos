@@ -13,13 +13,6 @@ def obtenerVecinos(G, n):
         lista.append(str(k))    
     return lista
 
-# Dibuja el grafo y lo guarda en una imagen
-""" def dibujarGrafo(G, n):
-    A = nx.nx_agraph.to_agraph(G)
-    A.layout('dot')
-    A.draw(n) # guardar como png
-    graphviz.Source(A.to_string()) """
-
     
 # {'A': 'N/A', 'D': 'A', 'F': 'D', 'I': 'F', 'H': 'I', 'M': 'I', 'L': 'M', 'N': 'M'}
 # Regresa desde el nodo final por cada predecesor para encontrar el camino óptimo a recorrer
