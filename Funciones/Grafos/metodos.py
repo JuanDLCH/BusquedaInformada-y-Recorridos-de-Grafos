@@ -17,7 +17,7 @@ def obtenerVecinos(G, n):
 # {'A': 'N/A', 'D': 'A', 'F': 'D', 'I': 'F', 'H': 'I', 'M': 'I', 'L': 'M', 'N': 'M'}
 # Regresa desde el nodo final por cada predecesor para encontrar el camino óptimo a recorrer
 def recorridoOptimo(predecesores):
-    lista = list()
+    lista = []
     p = list(predecesores.keys())[-1]
     lista.append(p)
     while p != 'N/A':
