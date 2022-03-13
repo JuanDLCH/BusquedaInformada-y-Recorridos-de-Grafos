@@ -5,7 +5,8 @@
 def obtenerVecinos(G, n):
     vecinos = G[n]
     lista = []
-    for k in vecinos.items():
+    #Sin la d no funciona, sepa diosito por qué
+    for k, d in vecinos.items():
         lista.append(str(k))    
     return lista
 
